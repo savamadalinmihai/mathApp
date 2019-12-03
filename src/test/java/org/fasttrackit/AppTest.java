@@ -1,4 +1,4 @@
-package org.fasttrackid;
+package org.fasttrackit;
 
 import static org.junit.Assert.assertTrue;
 
