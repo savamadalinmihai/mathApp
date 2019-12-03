@@ -2,16 +2,16 @@ package org.fasttrackit;
 
 import java.util.Scanner;
 
-public class Sum {
+public class Division {
 
     public void calculate(){
-        System.out.println("Hi. I'm your calculator. I'll add two numbers for you");
+        System.out.println("Hi. I'll divide two numbers for you");
 
         double firstNumber = getFirstNumberInput();
 
         double secondNumber = getSecondNumberInput();
 
-        double addition = firstNumber + secondNumber;
+        double addition = firstNumber / secondNumber;
 
         System.out.println("The result is: " + addition);
 
@@ -29,6 +29,5 @@ public class Sum {
         return scanner.nextDouble();
     }
 
+
 }
-
-
