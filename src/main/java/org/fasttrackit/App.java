@@ -7,22 +7,22 @@ public class App
     public static void main( String[] args ) {
 
         Division division = new Division();
-        division.calculate();
+        division.divide();
 
         System.out.println("    ");
 
         Multiplication multiplication = new Multiplication();
-        multiplication.calculate();
+        multiplication.multiply();
 
         System.out.println("    ");
 
         Substraction substraction = new Substraction();
-        substraction.calculate();
+        substraction.substract();
 
         System.out.println("    ");
 
         Sum sum = new Sum();
-        sum.calculate();
+        sum.add();
 
     }
 }

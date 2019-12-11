@@ -4,31 +4,34 @@ import java.util.Scanner;
 
 public class Substraction {
 
-    public void calculate(){
+    public double substract(double firstNumber, double secondNumber, double substraction){
         System.out.println("Hi. I'll substract two numbers for you");
 
-        double firstNumber = getFirstNumberInputDouble();
+        firstNumber = getFirstNumberInputDouble();
 
-        double secondNumber = getSecondNumberInputDouble();
+        secondNumber = getSecondNumberInputDouble();
 
-        double addition = firstNumber - secondNumber;
+        substraction = firstNumber - secondNumber;
 
-        System.out.println("The result is: " + addition);
+        System.out.println("The result is: " + substraction);
+        return substraction;
 
     }
 
-    public void calculate(){
-        System.out.println("Hi. I'll substract two numbers for you");
+    public double substract(int firstNumber, int secondNumber, int substraction){
+        System.out.println("Hi. I'll divide two numbers for you");
 
-        int firstNumber = getFirstNumberInputInt();
+       firstNumber = getFirstNumberInputInt();
 
-        int secondNumber = getSecondNumberInputInt();
+       secondNumber = getSecondNumberInputInt();
 
-        int addition = firstNumber - secondNumber;
+       substraction = firstNumber / secondNumber;
 
-        System.out.println("The result is: " + addition);
+        System.out.println("The result is: " + substraction);
 
-    }
+        return substraction;
+
+}
 
     private double getFirstNumberInputDouble(){
         System.out.println("Please enter the first number:");

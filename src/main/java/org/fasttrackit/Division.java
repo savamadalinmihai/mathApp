@@ -4,16 +4,32 @@ import java.util.Scanner;
 
 public class Division {
 
-    public void calculate(){
+    public double divide(double firstNumber, double secondNumber, double division){
         System.out.println("Hi. I'll divide two numbers for you");
 
-        double firstNumber = getFirstNumberInput();
+        firstNumber = getFirstNumberInput();
 
-        double secondNumber = getSecondNumberInput();
+        secondNumber = getSecondNumberInput();
 
-        double addition = firstNumber / secondNumber;
+        division = firstNumber / secondNumber;
 
-        System.out.println("The result is: " + addition);
+        System.out.println("The result is: " + division);
+
+        return division;
+
+    }
+    public int divide(int firstNumber, int secondNumber, int division){
+        System.out.println("Hi. I'll divide two numbers for you");
+
+        firstNumber = getFirstNumberInputInt();
+
+        secondNumber = getSecondNumberInputInt();
+
+        division = firstNumber / secondNumber;
+
+        System.out.println("The result is: " + division);
+
+        return division;
 
     }
 
@@ -29,5 +45,15 @@ public class Division {
         return scanner.nextDouble();
     }
 
+    private int getFirstNumberInputInt(){
+        System.out.println("Please enter the first number:");
+        Scanner scanner = new Scanner(System.in);
+        return scanner.nextInt();
+    }
 
+    private int getSecondNumberInputInt(){
+        System.out.println("Please enter the second number.");
+        Scanner scanner = new Scanner(System.in);
+        return scanner.nextInt();
+    }
 }
