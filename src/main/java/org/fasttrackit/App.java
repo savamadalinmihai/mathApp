@@ -2,27 +2,65 @@ package org.fasttrackit;
 
 import com.sun.org.apache.xpath.internal.operations.Div;
 
-public class App
-{
-    public static void main( String[] args ) {
+import java.util.Random;
+import java.util.Scanner;
 
-        Division division = new Division();
-        division.divide();
+public class App {
+    public static void main(String[] args) {
 
-        System.out.println("    ");
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Please enter the first number: ");
+//        String string1 = scanner.next();
+//        System.out.println("Please enter the second number: ");
+//        String string2 = scanner.next();
+//
+//        if (string1.contains(".") && string2.contains(".")) {
+//            double firstNumber = Double.parseDouble(string1);
+//            double secondNumber = Double.parseDouble(string2);
+//
+//        } else {
+//            int firstNumber = Integer.parseInt(string1);
+//            int secondNumber = Integer.parseInt(string2);
+//
+//        }
 
-        Multiplication multiplication = new Multiplication();
-        multiplication.multiply();
+//        Division division = new Division();
+//        division.divide();
+//
+//        System.out.println("    ");
+//
+//        Multiplication multiplication = new Multiplication();
+//        multiplication.multiply(firstNumber, secondNumber);
+//
+//        System.out.println("    ");
+//
+//        Substraction substraction = new Substraction();
+//        substraction.substract(firstNumber, secondNumber);
+//
+//
+//        System.out.println("    ");
+//
+//        Sum sum = new Sum();
+//        sum.add(firstNumber, secondNumber);
 
-        System.out.println("    ");
+        LogicalOP logicalOP = new LogicalOP();
+//        logicalOP.countUp();
+//
+//        System.out.println();
+//
+//        logicalOP.countDown();
 
-        Substraction substraction = new Substraction();
-        substraction.substract();
+//        System.out.println();
+//
+//        logicalOP.countFromTo();
 
-        System.out.println("    ");
+//        logicalOP.countFromToByComparison();
 
-        Sum sum = new Sum();
-        sum.add();
+//        logicalOP.showAllEvenNumbers();
+//        System.out.println();
+//        logicalOP.showAllOddNumbers();
+        logicalOP.addAllNumbers();
 
     }
 }
+
