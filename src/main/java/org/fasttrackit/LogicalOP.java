@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class LogicalOP {
 
     private int getNumberFromUser() {
-        System.out.println("Please enter the first number");
+        System.out.println("Please enter a number");
         Scanner scanner = new Scanner(System.in);
         return scanner.nextInt();
     }
 
     private int getNumber2FromUser() {
-        System.out.println("Please enter the second number ");
+        System.out.println("Please enter another number ");
         Scanner scanner = new Scanner(System.in);
         return scanner.nextInt();
     }
@@ -85,10 +85,10 @@ public class LogicalOP {
     public void addAllNumbers(){
         int i;
         int sum = 0;
-        for (i = 1; i <= 100; i++){
+        for (i = getNumberFromUser(); i <= 100; i++){
             sum = sum + i;
         }
-        System.out.println("Adding numbers from " + 1 + " to " + 100);
+        System.out.println("Adding numbers from " + i + " to " + 100);
         System.out.println("The result is: " + sum);
     }
 }
