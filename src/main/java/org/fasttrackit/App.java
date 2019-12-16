@@ -23,14 +23,14 @@ public class App {
 //            int secondNumber = Integer.parseInt(string2);
 //
 //        }
-
+//
 //        Division division = new Division();
 //        division.divide();
 //
 //        System.out.println("    ");
 //
 //        Multiplication multiplication = new Multiplication();
-//        multiplication.multiply(firstNumber, secondNumber);
+//        multiplication.multiply();
 //
 //        System.out.println("    ");
 //
@@ -58,9 +58,12 @@ public class App {
 
 //        logicalOP.showAllEvenNumbers();
 //        System.out.println();
+
 //        logicalOP.showAllOddNumbers();
+
         logicalOP.addAllNumbers();
 
+        logicalOP.addAllNumbersAndCalculateMedium();
     }
 }
 

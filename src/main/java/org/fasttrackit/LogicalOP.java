@@ -83,14 +83,30 @@ public class LogicalOP {
     }
 
     public void addAllNumbers(){
-        int i;
         int sum = 0;
-        for (i = getNumberFromUser(); i <= 100; i++){
+        int i = getNumberFromUser();
+        int iForPrint = i;
+        for (i = i ;i <= 100; i++){
             sum = sum + i;
+            int i1 = i;
         }
-        System.out.println("Adding numbers from " + i + " to " + 100);
+        System.out.println("Adding numbers from " + iForPrint + " to 100.");
         System.out.println("The result is: " + sum);
     }
+    public void addAllNumbersAndCalculateMedium(){
+        int sum = 0;
+        int medium = 0;
+        int i = getNumberFromUser();
+        int iForPrint = i;
+        for (i = i ;i <= 100; i++){
+            sum = sum + i;
+            medium = sum / i;
+        }
+        System.out.println("Adding numbers from " + iForPrint + " to 100.");
+        System.out.println("The result is: " + sum);
+        System.out.println("The medium of these numbers is: " + medium);
+    }
+
 }
 
 
