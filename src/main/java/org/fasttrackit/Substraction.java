@@ -4,25 +4,20 @@ import java.util.Scanner;
 
 public class Substraction {
 
-    public double substract(double firstNumber, double secondNumber) {
-        System.out.println("Hi. I'll substract two numbers for you");
+    public double subtract(double firstNumberDouble, double secondNumberDouble) {
+        double subtractionDouble = firstNumberDouble - secondNumberDouble;
 
-        double substraction = firstNumber - secondNumber;
+        System.out.println("The result of the subtraction with doubles is: " + subtractionDouble);
 
-        System.out.println("The result is: " + substraction);
-        return substraction;
-
-    }
-
-    public int substract(int firstNumber, int secondNumber) {
-        System.out.println("Hi. I'll divide two numbers for you");
-
-        int substraction = firstNumber - secondNumber;
-
-        System.out.println("The result is: " + substraction);
-
-        return substraction;
+        return subtractionDouble;
 
     }
 
+    public int subtract(int firstNumberInt, int secondNumberInt) {
+        int subtractionDouble = firstNumberInt - secondNumberInt;
+
+        System.out.println("The result of the subtraction with integers is: " + subtractionDouble);
+
+        return subtractionDouble;
+    }
 }

@@ -4,24 +4,20 @@ import java.util.Scanner;
 
 public class Multiplication {
 
-    public double multiply(double firstNumber, double secondNumber){
-        System.out.println("Hi. I'll multiply two numbers for you");
+    public double multiply(double firstNumberDouble, double secondNumberDouble){
+        double multiplicationDouble = firstNumberDouble * secondNumberDouble;
 
-         double multiplication = firstNumber * secondNumber;
+        System.out.println("The result of the multiplication with doubles is: " + multiplicationDouble);
 
-        System.out.println("The result is: " + multiplication);
-
-        return multiplication;
+        return multiplicationDouble;
 
     }
-    public int multiply(int firstNumber, int secondNumber){
-        System.out.println("Hi. I'll multiply two numbers for you");
+    public int multiply(int firstNumberInt, int secondNumberInt){
+        int multiplicationDouble = firstNumberInt * secondNumberInt;
 
-        int multiplication = firstNumber * secondNumber;
+        System.out.println("The result of the multiplication with integers is: " + multiplicationDouble);
 
-        System.out.println("The result is: " + multiplication);
-
-        return multiplication;
+        return multiplicationDouble;
 
     }
 

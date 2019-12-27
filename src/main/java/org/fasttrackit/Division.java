@@ -4,24 +4,20 @@ import java.util.Scanner;
 
 public class Division {
 
-    public double divide(double firstNumber, double secondNumber){
-        System.out.println("Hi. I'll divide two numbers for you");
+    public double divide(double firstNumberDouble, double secondNumberDouble){
+        double divisionDouble = firstNumberDouble / secondNumberDouble;
 
-        double division = firstNumber / secondNumber;
+        System.out.println("The result of the division with doubles is: " + divisionDouble);
 
-        System.out.println("The result is: " + division);
-
-        return division;
+        return divisionDouble;
 
     }
-    public int divide(int firstNumber, int secondNumber){
-        System.out.println("Hi. I'll divide two numbers for you");
+    public int divide(int firstNumberInt, int secondNumberInt){
+        int divisionInt = firstNumberInt / secondNumberInt;
 
-        int division = firstNumber / secondNumber;
+        System.out.println("The result of the division with integers is: " + divisionInt);
 
-        System.out.println("The result is: " + division);
-
-        return division;
+        return divisionInt;
 
     }
 
