@@ -107,6 +107,16 @@ public class LogicalOP {
         System.out.println("The medium of these numbers is: " + medium);
     }
 
+    public void printAsterisks(){
+        String asterisk = "*";
+        for(int x = 1; x <= 7; x++) {
+            for(int y = 7; y >= x; y--) {
+                System.out.print(asterisk);
+            }
+            System.out.println(" ");
+        }
+    }
+
 }
 
 

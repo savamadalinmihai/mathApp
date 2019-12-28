@@ -7,37 +7,37 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        Division division = new Division();
-        Multiplication multiplication = new Multiplication();
-        Substraction substraction = new Substraction();
-        Sum sum = new Sum();
+//        Division division = new Division();
+//        Multiplication multiplication = new Multiplication();
+//        Substraction substraction = new Substraction();
+//        Sum sum = new Sum();
+//
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Hi, I'll operate with two doubles for you");
+//        System.out.println("Please enter the first number: ");
+//        double firstNumberDouble = scanner.nextDouble();
+//        System.out.println("Please enter the second number: ");
+//        double secondNumberDouble = scanner.nextDouble();
+//        division.divide(firstNumberDouble,secondNumberDouble);
+//        multiplication.multiply(firstNumberDouble,secondNumberDouble);
+//        substraction.subtract(firstNumberDouble,secondNumberDouble);
+//        sum.add(firstNumberDouble,secondNumberDouble);
+//
+//
+//        System.out.println("Hi, I'll operate with two integers for you");
+//        System.out.println("Please enter the first number: ");
+//        int firstNumberInt = scanner.nextInt();
+//        System.out.println("Please enter the second number: ");
+//        int secondNumberInt = scanner.nextInt();
+//        division.divide(firstNumberInt,secondNumberInt);
+//        multiplication.multiply(firstNumberInt,secondNumberInt);
+//        substraction.subtract(firstNumberInt,secondNumberInt);
+//        sum.add(firstNumberInt,secondNumberInt);
+//
+//        System.out.println("    ");
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Hi, I'll operate with two doubles for you");
-        System.out.println("Please enter the first number: ");
-        double firstNumberDouble = scanner.nextDouble();
-        System.out.println("Please enter the second number: ");
-        double secondNumberDouble = scanner.nextDouble();
-        division.divide(firstNumberDouble,secondNumberDouble);
-        multiplication.multiply(firstNumberDouble,secondNumberDouble);
-        substraction.subtract(firstNumberDouble,secondNumberDouble);
-        sum.add(firstNumberDouble,secondNumberDouble);
 
-
-        System.out.println("Hi, I'll operate with two integers for you");
-        System.out.println("Please enter the first number: ");
-        int firstNumberInt = scanner.nextInt();
-        System.out.println("Please enter the second number: ");
-        int secondNumberInt = scanner.nextInt();
-        division.divide(firstNumberInt,secondNumberInt);
-        multiplication.multiply(firstNumberInt,secondNumberInt);
-        substraction.subtract(firstNumberInt,secondNumberInt);
-        sum.add(firstNumberInt,secondNumberInt);
-
-        System.out.println("    ");
-
-
-//        LogicalOP logicalOP = new LogicalOP();
+        LogicalOP logicalOP = new LogicalOP();
 //        logicalOP.countUp();
 //
 //        System.out.println();
@@ -58,6 +58,9 @@ public class App {
 //        logicalOP.addAllNumbers();
 //
 //        logicalOP.addAllNumbersAndCalculateMedium();
+
+        logicalOP.printAsterisks();
+
     }
 }
 
